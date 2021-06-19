@@ -1,0 +1,72 @@
+[submodule "luwrain"]
+	path = luwrain
+	url = https://github.com/luwrain/luwrain/
+[submodule "app-commander"]
+	path = app-commander
+	url = https://github.com/luwrain/app-commander/
+[submodule "app-contacts"]
+	path = app-contacts
+	url = https://github.com/luwrain/app-contacts/
+[submodule "app-mail"]
+	path = app-mail
+	url = https://github.com/luwrain/app-mail/
+[submodule "app-news"]
+	path = app-news
+	url = https://github.com/luwrain/app-news/
+[submodule "app-notepad"]
+	path = app-notepad
+	url = https://github.com/luwrain/app-notepad/
+[submodule "app-telegram"]
+	path = app-telegram
+	url = https://github.com/luwrain/app-telegram/
+[submodule "app-twitter"]
+	path = app-twitter
+	url = https://github.com/luwrain/app-twitter/
+[submodule "app-viewer"]
+	path = app-viewer
+	url = https://github.com/luwrain/app-viewer/
+[submodule "app-vk"]
+	path = app-vk
+	url = https://github.com/luwrain/app-vk/
+[submodule "base"]
+	path = base
+	url = https://github.com/luwrain/base/
+[submodule "browser"]
+	path = browser
+	url = https://github.com/luwrain/browser/
+[submodule "extensions"]
+	path = extensions
+	url = https://github.com/luwrain/extensions/
+[submodule "i18n"]
+	path = i18n
+	url = https://github.com/luwrain/i18n/
+[submodule "interaction-javafx"]
+	path = interaction-javafx
+	url = https://github.com/luwrain/interaction-javafx/
+[submodule "io"]
+	path = io
+	url = https://github.com/luwrain/io/
+[submodule "linux"]
+	path = linux
+	url = https://github.com/luwrain/linux/
+[submodule "packs"]
+	path = packs
+	url = https://github.com/luwrain/packs/
+[submodule "pim"]
+	path = pim
+	url = https://github.com/luwrain/pim/
+[submodule "player"]
+	path = player
+	url = https://github.com/luwrain/player/
+[submodule "reader"]
+	path = reader
+	url = https://github.com/luwrain/reader/
+[submodule "registry"]
+	path = registry
+	url = https://github.com/luwrain/registry/
+[submodule "studio"]
+	path = studio
+	url = https://github.com/luwrain/studio/
+[submodule "windows"]
+	path = windows
+	url = https://github.com/luwrain/windows/
