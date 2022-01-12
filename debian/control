@@ -1,0 +1,13 @@
+Source: luwrain
+Section: unknown
+Priority: optional
+Maintainer: Michael Pozhidaev <msp@luwrain.org>
+Build-Depends: debhelper (>= 8.0.0), openjdk-8-jdk
+Standards-Version: 3.9.4
+Homepage: https://luwrain.org/?lang=en
+
+Package: luwrain
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, openjdk
+Description: A platform for the creation of apps for the blind and partially-sighted
+  LUWRAIN a platform for the creation of apps for the blind and partially-sighted
