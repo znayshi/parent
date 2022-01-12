@@ -11,7 +11,7 @@ export DH_OPTIONS
 	dh $@ 
 
 build:
-	cd base/scripts
-	./lwr-build
+	cd base/scripts; ./lwr-prepare
+	cd base/scripts; ./lwr-build
 
 override_dh_auto_install:
