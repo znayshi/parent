@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.luwrain</groupId>
   <artifactId>luwrain-parent</artifactId>
-  <version>1.9.02</version>
+  <version>1.9.3</version>
   <packaging>pom</packaging>
   <name>luwrain-parent</name>
   <url>https://github.com/luwrain/parent/</url>
@@ -20,6 +20,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <log4j.version>2.14.1</log4j.version>
     <languagetool.version>5.5</languagetool.version>
+    <pdfbox.version>2.0.20</pdfbox.version>
   </properties>
   <dependencies>
     <dependency>
