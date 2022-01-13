@@ -8,10 +8,16 @@
 export DH_OPTIONS
 
 %:
-	dh $@ 
+	dh $@
 
 build:
+	dh build
 	cd base/scripts; ./lwr-prepare
 	cd base/scripts; ./lwr-build
 
-override_dh_auto_install:
+override_dh_install:
+	dh_install
+	./base/scripts/lwr-dist-dpkg
+
+binary: luwrain/jar/luwrain.jar
+	dh binary
