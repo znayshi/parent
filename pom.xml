@@ -79,14 +79,11 @@
       <artifactId>gson</artifactId>
       <version>${gson.version}</version>
     </dependency>
-
-
-      <dependency>
+    <dependency>
       <groupId>net.java.dev.jna</groupId>
       <artifactId>jna</artifactId>
       <version>${jna.version}</version>
     </dependency>
-
     <dependency>
       <groupId>javazoom</groupId>
       <artifactId>jlayer</artifactId>
@@ -117,14 +114,16 @@
       <artifactId>javafx-controls</artifactId>
       <version>${javafx.version}</version>
     </dependency>
-
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-web</artifactId>
       <version>${javafx.version}</version>
     </dependency>
-
-
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-swing</artifactId>
+      <version>${javafx.version}</version>
+    </dependency>
     <dependency>
       <groupId>org.languagetool</groupId>
       <artifactId>languagetool-core</artifactId>
@@ -165,17 +164,12 @@
       <artifactId>jackson-annotations</artifactId>
       <version>${jackson.version}</version>           
     </dependency>
-
     <dependency>                            
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
       <version>${jackson.version}</version>           
     </dependency>                           
-
-
-
-
-<dependency>
+    <dependency>
       <groupId>com.rometools</groupId>
       <artifactId>rome</artifactId>
       <version>1.14.1</version>
