@@ -204,6 +204,15 @@
       <artifactId>cdt-java-client</artifactId>
       <version>4.0.0</version>
     </dependency>
+
+    <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-youtube</artifactId>
+      <version>v3-rev222-1.25.0</version>
+    </dependency>
+
+
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -234,7 +243,7 @@
           </execution>
         </executions>
       </plugin>
-            <plugin>
+            <!--<plugin>
         <groupId>org.apache.maven.plugins</groupId>
 	<version>3.0.1</version>
         <artifactId>maven-gpg-plugin</artifactId>
@@ -247,7 +256,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
