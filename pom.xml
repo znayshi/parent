@@ -204,15 +204,26 @@
       <artifactId>cdt-java-client</artifactId>
       <version>4.0.0</version>
     </dependency>
-
     <dependency>
       <groupId>com.google.apis</groupId>
       <artifactId>google-api-services-youtube</artifactId>
-      <version>v3-rev222-1.25.0</version>
+      <version>v3-rev20220515-1.32.1</version>
     </dependency>
-
-
-
+    <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-drive</artifactId>
+      <version>v2-rev20220410-1.32.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-docs</artifactId>
+      <version>v1-rev20220609-2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jgit</groupId>
+      <artifactId>org.eclipse.jgit</artifactId>
+      <version>6.3.0.202209071007-r</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
