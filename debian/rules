@@ -22,5 +22,5 @@ override_dh_install:
 	ln -s /usr/share/luwrain/bin/luwrain debian/luwrain/usr/bin/luwrain
 	ln -s /usr/share/luwrain/bin/lwr debian/luwrain/usr/bin/lwr
 
-binary: luwrain/jar/luwrain.jar
+binary: luwrain/target/apidocs/index.html
 	dh binary
