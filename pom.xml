@@ -90,6 +90,11 @@
       <version>1.0.1</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-core</artifactId>
+      <version>9.4.0</version>
+    </dependency>
+    <dependency>
       <groupId>com.mpatric</groupId>
       <artifactId>mp3agic</artifactId>
       <version>0.9.1</version>
