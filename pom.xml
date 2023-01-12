@@ -23,7 +23,7 @@
   </modules>
   <properties>
     <inlandes.version>0.3.0</inlandes.version>
-    <bookdoc.version>0.2.0</bookdoc.version>
+    <bookdoc.version>0.5.0</bookdoc.version>
     <jna.version>5.11.0</jna.version>
     <pty4j.version>0.12.7</pty4j.version>
     <vfs.version>2.9.0</vfs.version>
