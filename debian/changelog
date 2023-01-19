@@ -1,3 +1,9 @@
+luwrain (2.0.0.0-lwr1) unstable; urgency=medium
+
+  * New version
+
+ -- Michael Pozhidaev <msp@luwrain.org>  Thu, 19 Jan 2023 13:25:28 +0700
+
 luwrain (1.9.3-lwr1) stable; urgency=medium
 
   * Initial package
