@@ -27,6 +27,7 @@
     <jna.version>5.11.0</jna.version>
     <pty4j.version>0.12.7</pty4j.version>
     <vfs.version>2.9.0</vfs.version>
+    <compress.version>1.23.0</compress.version>
     <jsoup.version>1.13.1</jsoup.version>
     <jackson.version>2.12.0</jackson.version>
     <lombok.version>1.18.24</lombok.version>
@@ -37,7 +38,8 @@
     <log4j.version>2.17.2</log4j.version>
     <languagetool.version>5.5</languagetool.version>
     <pdfbox.version>2.0.20</pdfbox.version>
-    <graalvm.version>20.1.0</graalvm.version>
+    <graalvm.version>23.0.0</graalvm.version>
+    <icu.version>73.2</icu.version>
     <antlr.version>4.8</antlr.version>
     <activation.version>1.1.1</activation.version>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -61,6 +63,11 @@
       <version>${vfs.version}</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-compress</artifactId>
+      <version>${compress.version}</version>
+    </dependency>
+    <dependency>
       <groupId>commons-net</groupId>
       <artifactId>commons-net</artifactId>
       <version>3.8.0</version>
@@ -74,6 +81,11 @@
       <groupId>org.graalvm.js</groupId>
       <artifactId>js</artifactId>
       <version>${graalvm.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ibm.icu</groupId>
+      <artifactId>icu4j</artifactId>
+      <version>${icu.version}</version>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
@@ -115,14 +127,11 @@
       <artifactId>httpmime</artifactId>
       <version>4.5.13</version>
     </dependency>
-
     <dependency>
       <groupId>com.vk.api</groupId>
       <artifactId>sdk</artifactId>
       <version>${vk.version}</version>
     </dependency>
-
-
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
