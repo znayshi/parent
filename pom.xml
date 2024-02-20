@@ -25,6 +25,7 @@
     <inlandes.version>0.3.0</inlandes.version>
     <bookdoc.version>0.5.0</bookdoc.version>
     <jna.version>5.11.0</jna.version>
+    <junit.version>5.10.2</junit.version>
     <pty4j.version>0.12.7</pty4j.version>
     <rhvoice.version>1.2.3</rhvoice.version>
     <tdlib.version>1.8.0</tdlib.version>
@@ -257,15 +258,20 @@
     <dependency>
       <groupId>org.eclipse.jgit</groupId>
       <artifactId>org.eclipse.jgit</artifactId>
-      <version>6.3.0.202209071007-r</version>
+            <version>6.3.0.202209071007-r</version>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${junit.version}</version>
+	<scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
-
     <dependency>
     <groupId>social.bigbone</groupId>
     <artifactId>bigbone</artifactId>
@@ -303,6 +309,11 @@
   </repositories>
   <build>
     <plugins>
+          <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
