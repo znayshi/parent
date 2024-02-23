@@ -22,7 +22,7 @@
     <module>windows</module>
   </modules>
   <properties>
-    <inlandes.version>0.3.0</inlandes.version>
+    <inlandes.version>0.5.2</inlandes.version>
     <bookdoc.version>0.5.0</bookdoc.version>
     <jna.version>5.11.0</jna.version>
     <junit.version>5.10.2</junit.version>
