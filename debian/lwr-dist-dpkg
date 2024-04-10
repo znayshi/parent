@@ -1,0 +1,40 @@
+#!/bin/bash -evx
+# Copyright 2012-2024 Michael Pozhidaev <msp@luwrain.org>
+# The LUWRAIN Project, GPL v.3
+
+DIR="$(pwd)"
+DEST_DIR="$DIR/debian/luwrain/usr/share/luwrain"
+
+. base/scripts/init.sh
+
+cd base/scripts
+mkdir -p "$DEST_DIR/bin"
+
+cat <<EOF > "$DEST_DIR/bin/luwrain"
+#!/bin/bash -e
+# Runs the LUWRAIN platform
+# Copyright $(date +%Y) Michael Pozhidaev <msp@luwrain.org>
+
+cd /usr/share/luwrain
+exec java --module-path /usr/share/openjfx/lib --add-modules javafx.controls,javafx.web,javafx.swing -jar lib/luwrain-base.jar "\$@"
+EOF
+
+cat <<EOF > "$DEST_DIR/bin/lwr"
+#!/bin/bash -e
+# Runs the LUWRAIN platform blocking any output
+# Copyright $(date +%Y) Michael Pozhidaev <msp@luwrain.org>
+
+exec luwrain "\$@" > /dev/null 2>&1
+EOF
+chmod 755 "$DEST_DIR/bin/luwrain" "$DEST_DIR/bin/lwr"
+
+./lwr-basedirs-linux "$DEST_DIR"
+
+cd $DEST_DIR
+wget -q https://download.luwrain.org/compilation/rhvoice-data.tar.xz
+tar xf rhvoice-data.tar.xz
+rm -f rhvoice-data.tar.xz
+
+cd lib
+rm -f javafx-*.jar
+[ -d $DIR/jni ] && cp $DIR/jni/* $DEST_DIR/lib

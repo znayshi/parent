@@ -17,7 +17,7 @@ build:
 
 override_dh_install:
 	dh_install
-	./base/scripts/lwr-dist-dpkg
+	./debian/lwr-dist-dpkg
 	mkdir -p debian/luwrain/usr/bin
 	ln -s /usr/share/luwrain/bin/luwrain debian/luwrain/usr/bin/luwrain
 	ln -s /usr/share/luwrain/bin/lwr debian/luwrain/usr/bin/lwr
