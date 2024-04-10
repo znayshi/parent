@@ -1,6 +1,6 @@
 luwrain (2.0.0.0-lwr2) unstable; urgency=medium
 
-  * Adding javafx.swing to the list of modules
+  * The package for Debian
 
  -- Michael Pozhidaev <msp@luwrain.org>  Thu, 19 Jan 2023 15:45:03 +0700
 
