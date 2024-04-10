@@ -37,6 +37,6 @@ rm -f rhvoice-data.tar.xz
 
 cd jar
 rm -f javafx-*.jar
-[ -d $DIR/jni ] && cp $DIR/jni/* $DEST_DIR/lib
+#[ -d $DIR/jni ] && cp $DIR/jni/* $DEST_DIR/lib
 echo DPKG distro prepared
 exit 0
