@@ -16,7 +16,7 @@ cat <<EOF > "$DEST_DIR/bin/luwrain"
 # Copyright $(date +%Y) Michael Pozhidaev <msp@luwrain.org>
 
 cd /usr/share/luwrain
-exec java --module-path /usr/share/openjfx/lib --add-modules javafx.controls,javafx.web,javafx.swing -jar jar/luwrain-base.jar "\$@"
+exec java --module-path /usr/share/openjfx/lib --add-modules javafx.controls,javafx.web,javafx.swing --add-exports javafx.web/com.sun.webkit.dom=ALL-UNNAMED -jar jar/luwrain-base.jar "\$@"
 EOF
 
 cat <<EOF > "$DEST_DIR/bin/lwr"
@@ -37,6 +37,5 @@ rm -f rhvoice-data.tar.xz
 
 cd jar
 rm -f javafx-*.jar
-#[ -d $DIR/jni ] && cp $DIR/jni/* $DEST_DIR/lib
-echo DPKG distro prepared
-exit 0
+ln -s luwrain-base-*.jar luwrain-base.jar
+[ -d $DIR/jni ] && cp $DIR/jni/* $DEST_DIR/jar
