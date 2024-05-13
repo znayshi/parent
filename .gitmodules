@@ -73,3 +73,6 @@
 [submodule "grammar"]
 	path = grammar
 	url = https://github.com/luwrain/grammar/
+[submodule "app-mastodon"]
+	path = app-mastodon
+	url = https://github.com/luwrain/app-mastodon
