@@ -1,0 +1,40 @@
+jenkins:
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "admin"
+        - id: "dev"
+          password: "dev"
+  authorizationStrategy:
+    globalMatrix:
+      permissions:
+        - "Job/Build:dev"
+        - "Job/Cancel:dev"
+        - "Job/Read:dev"
+        - "Job/Workspace:dev"
+        - "Overall/Administer:admin"
+        - "Overall/Read:authenticated"
+        - "Run/Replay:dev"
+        - "Run/Update:dev"
+  
+unclassified:
+jobs:
+  - script: >
+      folder('testjobs')
+  - script: >
+      pipelineJob('testjobs/default-agent') {
+        definition {
+          cpsScm {
+            scm {
+              git {
+                remote {
+                  url('https://github.com/egusator/parent.git')
+                  branch('*/master')
+                }
+              }
+            }
+          }
+        }
+      }  
