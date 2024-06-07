@@ -79,3 +79,9 @@
 [submodule "app-diary"]
 	path = app-diary
 	url = https://github.com/luwrain/app-diary/
+[submodule "app-osm"]
+	path = app-osm
+	url = https://github.com/luwrain/app-osm
+[submodule "app-weather"]
+	path = app-weather
+	url = https://github.com/luwrain/app-weather
