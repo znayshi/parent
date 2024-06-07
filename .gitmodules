@@ -76,3 +76,6 @@
 [submodule "app-mastodon"]
 	path = app-mastodon
 	url = https://github.com/luwrain/app-mastodon
+[submodule "app-diary"]
+	path = app-diary
+	url = ./app-diary/
