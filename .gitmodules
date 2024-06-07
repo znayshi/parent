@@ -78,4 +78,4 @@
 	url = https://github.com/luwrain/app-mastodon
 [submodule "app-diary"]
 	path = app-diary
-	url = ./app-diary/
+	url = https://github.com/luwrain/app-diary/
