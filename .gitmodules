@@ -85,3 +85,12 @@
 [submodule "app-weather"]
 	path = app-weather
 	url = https://github.com/luwrain/app-weather
+[submodule "app-wiki"]
+	path = app-wiki
+	url = https://github.com/luwrain/app-wiki/
+[submodule "app-download"]
+	path = app-download
+	url = https://github.com/luwrain/app-download/
+[submodule "app-opds"]
+	path = app-opds
+	url = https://github.com/luwrain/app-opds/
