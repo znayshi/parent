@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                sh 'git submodule update --init --recursive'
+                sh 'git submodule update --init --recursive /luwrain-src'
             }
         }
 
