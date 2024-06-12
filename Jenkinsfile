@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                sh 'git submodule update --init --recursive /luwrain-src'
+                sh 'git submodule update --init --recursive /var/jenkins_home/workspace/testjobs/default-agent/luwrain-src'
             }
         }
 
