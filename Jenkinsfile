@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                sh 'git submodule update --init --recursive ./parent'
+                sh 'git submodule update --init --recursive ./parent/new'
             }
         }
 
