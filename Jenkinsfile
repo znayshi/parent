@@ -28,11 +28,5 @@ pipeline {
                 sh './lwr-dist-linux /tmp/lwr'
             }
         }
-
-        stage('Generate deb') {
-            steps {
-
-            }
-        }
     }
 }
