@@ -99,6 +99,11 @@
       <version>${vfs.version}</version>
     </dependency>
     <dependency>
+      <groupId>org.apache.httpcomponents.client5</groupId>
+      <artifactId>httpclient5</artifactId>
+      <version>5.3.1</version>
+    </dependency>
+    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-compress</artifactId>
       <version>${compress.version}</version>
@@ -112,6 +117,11 @@
       <groupId>org.luwrain</groupId>
       <artifactId>luwrain-books-api</artifactId>
       <version>0.2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ton</groupId>
+      <artifactId>ton-kotlin-jvm</artifactId>
+      <version>0.2.18</version>
     </dependency>
     <dependency>
       <groupId>org.graalvm.js</groupId>
@@ -242,6 +252,11 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>${lombok.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.auto.service</groupId>
+      <artifactId>auto-service</artifactId>
+      <version>1.1.1</version>
     </dependency>
     <dependency>
       <groupId>org.antlr</groupId>

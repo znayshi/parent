@@ -76,3 +76,21 @@
 [submodule "app-mastodon"]
 	path = app-mastodon
 	url = https://github.com/luwrain/app-mastodon
+[submodule "app-diary"]
+	path = app-diary
+	url = https://github.com/luwrain/app-diary/
+[submodule "app-osm"]
+	path = app-osm
+	url = https://github.com/luwrain/app-osm
+[submodule "app-weather"]
+	path = app-weather
+	url = https://github.com/luwrain/app-weather
+[submodule "app-wiki"]
+	path = app-wiki
+	url = https://github.com/luwrain/app-wiki/
+[submodule "app-download"]
+	path = app-download
+	url = https://github.com/luwrain/app-download/
+[submodule "app-opds"]
+	path = app-opds
+	url = https://github.com/luwrain/app-opds/
