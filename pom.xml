@@ -119,6 +119,11 @@
       <version>0.2.0</version>
     </dependency>
     <dependency>
+      <groupId>org.ton</groupId>
+      <artifactId>ton-kotlin-jvm</artifactId>
+      <version>0.2.18</version>
+    </dependency>
+    <dependency>
       <groupId>org.graalvm.js</groupId>
       <artifactId>js</artifactId>
       <version>${graalvm.version}</version>
