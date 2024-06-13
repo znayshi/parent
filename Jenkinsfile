@@ -22,11 +22,5 @@ pipeline {
                 }
             }
         }
-
-        stage('Generate dist') {
-            steps {
-                sh './lwr-dist-linux /tmp/lwr'
-            }
-        }
     }
 }
