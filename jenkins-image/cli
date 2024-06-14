@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+THIS="${0##*/}"
+JAR=jenkins-cli.jar
+
+PASSWD=admin
+
+if ! [ -r "$JAR" ]; then
+    wget http://localhost:8080/jnlpJars/jenkins-cli.jar 
+fi
+
+exec java -jar "$JAR" -auth "admin:$PASSWD" "$@"
