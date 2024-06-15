@@ -37,7 +37,7 @@ pipeline {
     stage ('snapshot') {
         steps {
             dir ('base/scripts') {
-                sh './lwr-snapshot ../../out'
+                sh './lwr-snapshot out'
             }
             dir ('out') {
                 sh 'date > timestamp.txt'
