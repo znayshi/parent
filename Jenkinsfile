@@ -33,9 +33,11 @@ pipeline {
             }
         }
 
-    stage 'snapshot' {
-        dir 'base/scripts' {
-	sh './lwr-snapshot ../../out'
+    stage ('snapshot') {
+        steps {
+            dir 'base/scripts' {
+                sh './lwr-snapshot ../../out'
+            }
         }
     }
     }
