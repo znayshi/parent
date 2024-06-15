@@ -16,10 +16,12 @@ pipeline {
 
         stage('prepare') {
             steps {
-	    sh 'rm -rf /out/snapshot && mkdir -p /out/snapshot'
+                dir ('/out') {
+                    sh 'rm -rf snapshot && mkdir -p snapshot'
+                }
                 dir('base/sounds') {
                     sh './make'
-		    sh 'cp *.wav ../../luwrain/src/main/resources/org/luwrain/core/sound/'
+		    sh 'rm -f ../../luwrain/src/main/resources/org/luwrain/core/sound/* && cp *.wav ../../luwrain/src/main/resources/org/luwrain/core/sound/'
             }
         }
 }
