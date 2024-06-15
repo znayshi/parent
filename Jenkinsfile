@@ -16,7 +16,7 @@ pipeline {
 
         stage('prepare') {
             steps {
-	    sh 'rm -rf /out/* && mkdir -p /out/snapshot'
+	    sh 'rm -rf /out/snapshot && mkdir -p /out/snapshot'
                 dir('base/sounds') {
                     sh './make'
 		    sh 'cp *.wav ../../luwrain/src/main/resources/org/luwrain/core/sound/'
@@ -40,7 +40,7 @@ pipeline {
                 sh './lwr-snapshot /out/snapshot'
             }
             dir ('out') {
-                sh 'date > timestamp.txt'
+                sh 'date > /out/snapshot/timestamp.txt'
             }
         }
     }
