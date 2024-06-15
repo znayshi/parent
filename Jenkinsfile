@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    triggers { pollSCM('* * * * *') }
 
     environment {
         JAVA_HOME = "/usr/lib/jvm/java-17-openjdk-amd64"
@@ -35,8 +36,11 @@ pipeline {
 
     stage ('snapshot') {
         steps {
-            dir 'base/scripts' {
+            dir ('base/scripts') {
                 sh './lwr-snapshot ../../out'
+            }
+            dir ('out') {
+                sh 'date > timestamp.txt'
             }
         }
     }
