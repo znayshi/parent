@@ -15,6 +15,7 @@ pipeline {
 
         stage('prepare') {
             steps {
+	    sh 'mkdir -p out'
                 dir('base/sounds') {
                     sh './make'
 		    sh 'cp *.wav ../../luwrain/src/main/resources/org/luwrain/core/sound/'
@@ -31,5 +32,11 @@ pipeline {
                 }
             }
         }
+
+    stage 'snapshot' {
+        dir 'base/scripts' {
+	sh './lwr-snapshot ../../out'
+        }
+    }
     }
 }
