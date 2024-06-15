@@ -18,7 +18,6 @@ pipeline {
                 dir('base/sounds') {
                     sh './make'
 		    sh 'cp *.wav ../../luwrain/src/main/resources/org/luwrain/core/sound/'
-                    sh './lwr-build'
             }
         }
 }

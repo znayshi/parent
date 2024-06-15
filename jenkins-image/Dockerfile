@@ -25,7 +25,7 @@ WORKDIR /data
 WORKDIR /app
 
 RUN apt-get update --fix-missing \
-    && apt-get install -y --no-install-recommends timidity midicsv sox ant \
+    && apt-get install -y --no-install-recommends timidity fluid-soundfont-gm midicsv sox ant \
     && rm -rf /var/lib/apt/lists/*
 
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
