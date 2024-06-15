@@ -13,6 +13,18 @@ pipeline {
             }
         }
 
+        stage('prepare') {
+            steps {
+                dir('base/sounds') {
+                    sh './make'
+		    sh 'cp *.wav ../../luwrain/src/main/resources/org/luwrain/core/sound/'
+                    sh './lwr-build'
+
+                sh ''
+            }
+        }
+
+
         stage('Build') {
             steps {
                 sh 'mvn install'
