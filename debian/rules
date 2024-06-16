@@ -12,8 +12,6 @@ export DH_OPTIONS
 
 build:
 	dh build
-	cd base/scripts; ./lwr-ant-gen-all
-	cd base/scripts; ./lwr-build
 
 override_dh_install:
 	dh_install

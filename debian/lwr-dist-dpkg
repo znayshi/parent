@@ -38,4 +38,3 @@ rm -f rhvoice-data.tar.xz
 cd jar
 rm -f javafx-*.jar
 ln -s luwrain-base-*.jar luwrain-base.jar
-[ -d $DIR/jni ] && cp $DIR/jni/* $DEST_DIR/jar
