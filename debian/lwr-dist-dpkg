@@ -3,7 +3,13 @@
 # The LUWRAIN Project, GPL v.3
 
 DIR="$(pwd)"
-DEST_DIR="$DIR/debian/luwrain/usr/share/luwrain"
+if [ -d "$DIR/debian/luwrain-snapshot" ]; then
+    DEST_DIR="$DIR/debian/luwrain-snapshot/usr/share/luwrain"
+        BIN_DIR="$DIR/debian/luwrain-snapshot/usr/bin"
+else
+        DEST_DIR="$DIR/debian/luwrain/usr/share/luwrain"
+        BIN_DIR="$DIR/debian/luwrain/usr/bin"
+fi
 
 . base/scripts/init.sh
 
@@ -38,3 +44,7 @@ rm -f rhvoice-data.tar.xz
 cd jar
 rm -f javafx-*.jar
 ln -s luwrain-base-*.jar luwrain-base.jar
+
+mkdir -p "$BIN_DIR"
+ln -s /usr/share/luwrain/bin/luwrain "$BIN_DIR/luwrain"
+ln -s /usr/share/luwrain/bin/lwr "$BIN_DIR/lwr"

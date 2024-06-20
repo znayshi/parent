@@ -16,9 +16,6 @@ build:
 override_dh_install:
 	dh_install
 	./debian/lwr-dist-dpkg
-	mkdir -p debian/luwrain/usr/bin
-	ln -s /usr/share/luwrain/bin/luwrain debian/luwrain/usr/bin/luwrain
-	ln -s /usr/share/luwrain/bin/lwr debian/luwrain/usr/bin/lwr
 
 binary: luwrain/target/apidocs/index.html
 	dh binary
