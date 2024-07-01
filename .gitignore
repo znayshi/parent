@@ -1,4 +1,6 @@
-update
+build
+gradle*
+.gradle
 data
 lib
 target
