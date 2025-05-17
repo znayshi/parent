@@ -1,9 +1,6 @@
 [submodule "luwrain"]
 	path = luwrain
 	url = https://github.com/luwrain/luwrain/
-[submodule "app-commander"]
-	path = app-commander
-	url = https://github.com/luwrain/app-commander/
 [submodule "app-contacts"]
 	path = app-contacts
 	url = https://github.com/luwrain/app-contacts/
