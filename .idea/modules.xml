@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-commander/luwrain-parent.app-commander.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-commander/luwrain-parent.app-commander.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-contacts/luwrain-parent.app-contacts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-contacts/luwrain-parent.app-contacts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-download/luwrain-parent.app-download.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-download/luwrain-parent.app-download.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-mastodon/luwrain-parent.app-mastodon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-mastodon/luwrain-parent.app-mastodon.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-news/luwrain-parent.app-news.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-news/luwrain-parent.app-news.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-opds/luwrain-parent.app-opds.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-opds/luwrain-parent.app-opds.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-osm/luwrain-parent.app-osm.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-osm/luwrain-parent.app-osm.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-vk/luwrain-parent.app-vk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-vk/luwrain-parent.app-vk.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-weather/luwrain-parent.app-weather.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-weather/luwrain-parent.app-weather.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-wiki/luwrain-parent.app-wiki.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-wiki/luwrain-parent.app-wiki.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io/luwrain-parent.io.main.iml" filepath="$PROJECT_DIR$/.idea/modules/io/luwrain-parent.io.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linux/luwrain-parent.linux.main.iml" filepath="$PROJECT_DIR$/.idea/modules/linux/luwrain-parent.linux.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/luwrain-parent.luwrain-base.main.iml" filepath="$PROJECT_DIR$/.idea/modules/base/luwrain-parent.luwrain-base.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/luwrain/luwrain-parent.luwrain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/luwrain/luwrain-parent.luwrain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pim/luwrain-parent.pim.main.iml" filepath="$PROJECT_DIR$/.idea/modules/pim/luwrain-parent.pim.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reader/luwrain-parent.reader.main.iml" filepath="$PROJECT_DIR$/.idea/modules/reader/luwrain-parent.reader.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/studio/luwrain-parent.studio.main.iml" filepath="$PROJECT_DIR$/.idea/modules/studio/luwrain-parent.studio.main.iml" />
+    </modules>
+  </component>
+</project>

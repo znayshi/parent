@@ -5,3 +5,70 @@ include ('luwrain-base')
 project(":luwrain-base").projectDir = file("base")
 
 include ('luwrain')
+include ':grammar'
+project(':grammar').projectDir = file('grammar')
+include ':io'
+project(':io').projectDir = file('io')
+include('studio')
+project(':studio').projectDir = file('studio')
+include('reader')
+project(':reader').projectDir = file('reader')
+include('player')
+project(':player').projectDir = file('player')
+include('pim')
+project (':pim').projectDir = file('pim')
+include('interaction-javafx')
+project(':interaction-javafx').projectDir = file('interaction-javafx')
+include('browser')
+project(':browser').projectDir = file('browser')
+include('linux')
+project (':linux').projectDir = file('linux')
+include('windows')
+project (':windows').projectDir = file('windows')
+include('app-opds')
+project(':app-opds').projectDir = file('app-opds')
+
+include('app-osm')
+project(':app-osm').projectDir = file('app-osm')
+
+include('app-news')
+project(':app-news').projectDir = file('app-news')
+
+include('app-weather')
+project(':app-weather').projectDir = file('app-weather')
+
+include('app-download')
+project(':app-download').projectDir = file('app-download')
+
+include('app-wiki')
+project(':app-wiki').projectDir = file('app-wiki') 
+
+include('app-commander')
+project(':app-commander').projectDir = file('app-commander')
+
+include('app-contacts')
+project(':app-contacts').projectDir = file('app-contacts')
+
+//include('app-diary')
+//project(':app-diary').projectDir = file('app-diary')
+
+include('app-mail')
+project(':app-mail').projectDir = file('app-mail')
+
+include('app-mastodon')
+project(':app-mastodon').projectDir = file('app-mastodon')
+
+include('app-notepad')
+project(':app-notepad').projectDir = file('app-notepad')
+
+include('app-telegram')
+project(':app-telegram').projectDir = file('app-telegram')
+
+include('app-twitter')
+project(':app-twitter').projectDir = file('app-twitter')
+
+include('app-viewer')
+project(':app-viewer').projectDir = file('app-viewer')
+
+include('app-vk')
+project(':app-vk').projectDir = file('app-vk')

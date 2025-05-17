@@ -1,0 +1,29 @@
+ 
+plugins {
+    id 'java'
+  id 'application'
+}
+
+group = 'org.luwrain'
+version = '1.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  // implementation libraries.base
+  // implementation libraries.graalvm
+  // implementation (project(':luwrain-base'))
+  // testImplementation libraries.junit
+}
+
+application { 
+	// mainClass = 'org.luwrain.Luwrain'
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5c83ce2-9123-4be5-99f3-b55d8c3f76e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-commander/luwrain-parent.app-commander.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-contacts/luwrain-parent.app-contacts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-download/luwrain-parent.app-download.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-mastodon/luwrain-parent.app-mastodon.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-news/luwrain-parent.app-news.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-opds/luwrain-parent.app-opds.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-osm/luwrain-parent.app-osm.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-vk/luwrain-parent.app-vk.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-weather/luwrain-parent.app-weather.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app-wiki/luwrain-parent.app-wiki.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/base/luwrain-parent.luwrain-base.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/io/luwrain-parent.io.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/linux/luwrain-parent.linux.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/luwrain/luwrain-parent.luwrain.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/pim/luwrain-parent.pim.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/reader/luwrain-parent.reader.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/studio/luwrain-parent.studio.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-mastodon/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app-mastodon/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io/src/WeatherAPI_Meteosource/Weather/Weather.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="luwrain-parent" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="luwrain-parent" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2qYxSRFKHwe50HHjIIYuhro3j5Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/matvey/parent",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="parent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="luwrain-linux" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c83ce2-9123-4be5-99f3-b55d8c3f76e5" name="Changes" comment="" />
+      <created>1734853310261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734853310261</updated>
+    </task>
+    <servers />
+  </component>
+</project>
